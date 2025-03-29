@@ -1,4 +1,4 @@
-package ex_02_Java_Basics_Part_2;
+package ex_03_Ternery_operators;
 
 public class Lab020_ternary_Operators {
     public static void main(String[] args) {
