@@ -1,15 +1,17 @@
 package ex_13_Opps_Constructor;
 
 public class Lab55_Constructor {
-    public void main(String[] args) {
+    public static void main(String[] args) {
 
         Baby b1=new Baby();
+        new Baby();
+
 
 
 
     }
 
-    class Baby {
+    static class Baby {
         //Attribute
         String name;
 
@@ -28,6 +30,9 @@ public class Lab55_Constructor {
         }
         Baby(){
             System.out.println("Default COnstructor");
+            //Fetch dat from the My SQL
+            //Read from CSV file
+            // open a file and read the file
         }
     }
 }
